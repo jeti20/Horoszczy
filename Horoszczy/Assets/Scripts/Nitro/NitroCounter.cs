@@ -6,10 +6,15 @@ public class NitroCounter : MonoBehaviour
 {
     public AudioSource collectSound;
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-        collectSound.Play();
-        ScroingSystem.theScore += 1;
-        Destroy(gameObject);
+        if (other.gameObject.tag == ("Player"))
+        {
+            Debug.Log("Collision Nitro-Player");
+            collectSound.Play();
+            ScroingSystem.theScore += 1;
+            Destroy(gameObject);
+        }
+        
     }
 }

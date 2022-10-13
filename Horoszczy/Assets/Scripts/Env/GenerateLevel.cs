@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GenerateLevel : MonoBehaviour
 {
     public GameObject road;
-    public GameObject enemy;
+   
 
     public int zPos = 200;
     public bool creatingSection = false;
@@ -24,7 +24,7 @@ public class GenerateLevel : MonoBehaviour
     {
         
         Instantiate(road, new Vector3(0, 0, zPos), Quaternion.Euler(0, 0, 0));
-        Instantiate(enemy, new Vector3(0, 0, zPos), Quaternion.Euler(0, 0, 0));
+        
         zPos +=200;
         yield return new WaitForSeconds(1);
         creatingSection = false;

@@ -8,8 +8,7 @@ public class NitroSpawner : MonoBehaviour
     public GameObject Nitro;
     public int zPos = 0;
     public bool creatingSection = false;
-    public float Wide1 = 579;
-    public float Wide2 = 562;
+    public float boundries = 8.7f;
     //random X i dodawanie Z
     // Start is called before the first frame update  
 
@@ -21,11 +20,13 @@ public class NitroSpawner : MonoBehaviour
             creatingSection = true;
             StartCoroutine(GenerateNitro()); // w corutine musi byc opóŸneinie nie mozna tego zrobiæ w metodzie, opóznienie pojawiania sie mapy
         }
+
+       
     }
     IEnumerator GenerateNitro()
     {
 
-        Instantiate(Nitro, new Vector3(Random.Range(Wide1, Wide2), 307.5273f, Random.Range(0, zPos)), Quaternion.Euler(180, 0, 0));
+        Instantiate(Nitro, new Vector3(Random.Range(-boundries, boundries), 2.5f, Random.Range(0, zPos)), Quaternion.Euler(0, 0, 0));
         
         yield return new WaitForSeconds(1);
         zPos += 200;

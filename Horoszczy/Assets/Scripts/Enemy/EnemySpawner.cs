@@ -5,11 +5,12 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
 
-    public GameObject Enemy;
-    public int zPos = 0;
+    public GameObject enemy;
+    public GameObject enemyBlock;
+    private int zPos = 0;
     public bool creatingSection = false;
-    public float Wide1 = 579;
-    public float Wide2 = 562;
+    private float borders = 8.7f;
+ 
     //random X i dodawanie Z
     // Start is called before the first frame update  
 
@@ -25,8 +26,9 @@ public class EnemySpawner : MonoBehaviour
     IEnumerator GenerateNitro()
     {
 
-        Instantiate(Enemy, new Vector3(Random.Range(Wide1, Wide2), 307.5273f, Random.Range(0, zPos)), Quaternion.Euler(180, 0, 0));
-        
+        Instantiate(enemy, new Vector3(Random.Range(-borders, borders), 4f, Random.Range(0, zPos)), Quaternion.Euler(0, 0, 180));
+        Instantiate(enemyBlock, new Vector3(0, 4f, Random.Range(0, zPos)), Quaternion.Euler(0, 0, 180));
+
         yield return new WaitForSeconds(1);
         zPos += 200;
         creatingSection = false;

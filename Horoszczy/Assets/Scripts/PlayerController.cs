@@ -1,14 +1,13 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
 
-    private float speed = 70;
+    private float speed = 30;
     private float turnSpeed = 10;
-    private float xRangeRight = 579f;
-    private float xRangeLeft = 562f;
+    private float boundries = 8.4f;
 
     private float horizontalInput;
     private float verticalInput;
@@ -19,16 +18,27 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
 
-        if (transform.position.x < xRangeLeft)
+        if (transform.position.x < -boundries)
         {
-            transform.position = new Vector3(xRangeLeft, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-boundries, transform.position.y, transform.position.z);
         }
-        if (transform.position.x > xRangeRight)
+        if (transform.position.x > boundries)
         {
-            transform.position = new Vector3(xRangeRight, transform.position.y, transform.position.z);
+            transform.position = new Vector3(boundries, transform.position.y, transform.position.z);
         }
 
         transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
-        transform.Rotate(Vector3.up, turnSpeed * horizontalInput * turnSpeed * Time.deltaTime); 
+        transform.Rotate(Vector3.up, turnSpeed * horizontalInput * turnSpeed * Time.deltaTime);
+
+        if (Input.GetKey("left shift"))
+        {
+            speed = 100;
+        }
+        else
+        {
+            speed = 30;
+        }
+
+        
     }
 }

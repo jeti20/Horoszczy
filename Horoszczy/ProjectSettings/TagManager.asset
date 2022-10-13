@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Informacja
+  - Enemy
+  - "Myd\u0142o"
+  - Nitro
   layers:
   - Default
   - TransparentFX
