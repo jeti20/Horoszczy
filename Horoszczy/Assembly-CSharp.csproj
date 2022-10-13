@@ -56,22 +56,24 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Triggery\CoHamujesz.cs" />
-    <Compile Include="Assets\Scripts\Nitro\NitroCounter.cs" />
-    <Compile Include="Assets\Scripts\lvl2.cs" />
-    <Compile Include="Assets\Scripts\Nitro\NitroSpawner.cs" />
-    <Compile Include="Assets\Scripts\Mydło\FlyForward.cs" />
-    <Compile Include="Assets\Scripts\SpinPropellerX.cs" />
-    <Compile Include="Assets\Scripts\Triggery\Informacja.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Mydło\Shooting.cs" />
-    <Compile Include="Assets\Scripts\Nitro\ScroingSystem.cs" />
-    <Compile Include="Assets\Scripts\DetectCollision.cs" />
-    <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
-    <Compile Include="Assets\Scripts\Env\LevelBoundary.cs" />
-    <Compile Include="Assets\Scripts\Env\GenerateLevel.cs" />
-    <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\Menu\MainMenufuncionality.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Triggery\CoHamujesz.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Nitro\NitroCounter.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\lvl2.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Nitro\NitroSpawner.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Mydło\FlyForward.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\SpinPropellerX.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Triggery\Informacja.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\GameOver.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Mydło\Shooting.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Nitro\ScroingSystem.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\DetectCollision.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Enemy\EnemySpawner.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Env\LevelBoundary.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Env\GenerateLevel.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Enemy\DestroyngPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
