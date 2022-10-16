@@ -6,22 +6,33 @@ public class Informacja : MonoBehaviour
 {//Script put on Trigger, and it react with object with tag "Player"
     public GameObject informacja;
     public GameObject player;
+
+    public GameObject informacja1;
+    public GameObject informacja2;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == ("Player"))
         {
-            StartCoroutine(Info());
+            informacja.SetActive(true);
+            this.gameObject.GetComponent<BoxCollider>().enabled = false; //wy³¹cznie boxcoliera 
             player.GetComponent<PlayerController>().enabled = false; //zatrzymanie postaci
         }
         
     }
 
-    IEnumerator Info()
+    //Next Button
+    public void Next()
     {
-        informacja.SetActive(true);
-        yield return new WaitForSeconds(5); //mo¿na dodaæ button ¿e jest ready
-        informacja.SetActive(false);
-        this.gameObject.GetComponent<BoxCollider>().enabled = false; //wy³¹cznie boxcoliera
+        informacja1.SetActive(false);
+        informacja2.SetActive(true);
+    }
+
+
+    //Cloisng the window, clsong button
+    public void Close()
+    {
+        informacja2.SetActive(false);
         player.GetComponent<PlayerController>().enabled = true; //start postaci
     }
 }

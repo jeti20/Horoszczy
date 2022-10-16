@@ -360,7 +360,6 @@
 "Assets/Scripts/Road-Level/Env/GenerateLevel.cs"
 "Assets/Scripts/Road-Level/Env/LevelBoundary.cs"
 "Assets/Scripts/Road-Level/GameOver.cs"
-"Assets/Scripts/Road-Level/lvl2.cs"
 "Assets/Scripts/Road-Level/Mydło/FlyForward.cs"
 "Assets/Scripts/Road-Level/Mydło/Shooting.cs"
 "Assets/Scripts/Road-Level/Nitro/NitroCounter.cs"
@@ -368,6 +367,7 @@
 "Assets/Scripts/Road-Level/Nitro/ScroingSystem.cs"
 "Assets/Scripts/Road-Level/PlayerController.cs"
 "Assets/Scripts/Road-Level/SpinPropellerX.cs"
+"Assets/Scripts/Road-Level/Triggery/Buttons/InformacjaButtons.cs"
 "Assets/Scripts/Road-Level/Triggery/CoHamujesz.cs"
 "Assets/Scripts/Road-Level/Triggery/Informacja.cs"
 -langversion:9.0

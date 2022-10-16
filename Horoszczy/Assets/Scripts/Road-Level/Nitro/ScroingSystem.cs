@@ -12,7 +12,7 @@ public class ScroingSystem : MonoBehaviour
     void Update()
     {
         scoreText.GetComponent<TextMeshProUGUI>().text = "NITRO: " + theScore;
-        if (theScore == 2)
+        if (theScore == 20)
         {
             SceneManager.LoadScene(3);
         }       

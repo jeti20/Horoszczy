@@ -60,8 +60,8 @@
     <Compile Include="Assets\Scripts\Road-Level\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Triggery\CoHamujesz.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Nitro\NitroCounter.cs" />
-    <Compile Include="Assets\Scripts\Road-Level\lvl2.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Nitro\NitroSpawner.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Enemy\DestroyngPlayer.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Mydło\FlyForward.cs" />
     <Compile Include="Assets\Scripts\Road-Level\SpinPropellerX.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Triggery\Informacja.cs" />
@@ -73,7 +73,7 @@
     <Compile Include="Assets\Scripts\Road-Level\Enemy\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Env\LevelBoundary.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Env\GenerateLevel.cs" />
-    <Compile Include="Assets\Scripts\Road-Level\Enemy\DestroyngPlayer.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Triggery\Buttons\InformacjaButtons.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
