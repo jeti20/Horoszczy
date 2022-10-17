@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - "Myd\u0142o"
   - Nitro
+  - Milk
   layers:
   - Default
   - TransparentFX
@@ -15,8 +16,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Enemy
+  - ground
   - 
   - 
   - 
