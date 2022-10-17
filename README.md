@@ -10,5 +10,5 @@ Level 1  - The goal here is to collect 20Nitro and do not hit the enemy. Press l
 
 ![](https://github.com/jeti20/Horoszczy/blob/main/pictures/png3.PNG)
 
-Level 2 - The goal is to pure milk on the unwanted typical viewers. In meantime, you have to put out fire in houses around. Not playable yet, in progress...
+Level 2 - The goal is to pure milk on the unwanted typical viewers. In meantime, you have to put out fire in houses around. Not playable yet, in progress... i think It will be good pratice to make it also VR game
 ![](https://github.com/jeti20/Horoszczy/blob/main/pictures/png1.PNG)
