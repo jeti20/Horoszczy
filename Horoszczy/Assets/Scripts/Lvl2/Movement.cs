@@ -3,7 +3,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     float rotationX = 0f;
-    float rotationY = 180f;
+    float rotationY = 190f;
 
     public float sensitivity = 1f;
  

@@ -59,7 +59,10 @@
     <Compile Include="Assets\Scripts\Menu\MainMenufuncionality.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Triggery\Buttons\InformacjaButtons.cs" />
     <Compile Include="Assets\AdditionalAssets\Supercyan Character Pack Zombie Sample\Scripts\ZombieFree.cs" />
+    <Compile Include="Assets\Scripts\Lvl2\DestroyngZoombie.cs" />
+    <Compile Include="Assets\Scripts\Lvl2\Shooting.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Triggery\CoHamujesz.cs" />
+    <Compile Include="Assets\Scripts\Lvl2\ZoombieSpawner.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Nitro\NitroCounter.cs" />
     <Compile Include="Assets\AdditionalAssets\Supercyan Character Pack Zombie Sample\Scripts\ZombieCameraLogic.cs" />
     <Compile Include="Assets\AdditionalAssets\Supercyan Character Pack Zombie Sample\Scripts\ZombieCharacterControl.cs" />
@@ -70,14 +73,14 @@
     <Compile Include="Assets\Scripts\Road-Level\Triggery\Informacja.cs" />
     <Compile Include="Assets\Scripts\Road-Level\GameOver.cs" />
     <Compile Include="Assets\Scripts\Road-Level\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Road-Level\Mydło\Shooting.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Nitro\ScroingSystem.cs" />
+    <Compile Include="Assets\Scripts\Lvl2\ZoombieAI.cs" />
     <Compile Include="Assets\Scripts\Road-Level\DetectCollision.cs" />
+    <Compile Include="Assets\Scripts\Lvl2\PlayerCasting.cs" />
+    <Compile Include="Assets\Scripts\Lvl2\Movement.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Enemy\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Env\LevelBoundary.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Env\GenerateLevel.cs" />
-    <Compile Include="Assets\Scripts\Lvl2\Movement.cs" />
-    <Compile Include="Assets\Scripts\Lvl2\DestroyngZoombie.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -761,6 +764,9 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -769,9 +775,6 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
