@@ -363,7 +363,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198985245}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -9759,7 +9759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2038020370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9899,6 +9899,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5612509488771682519, guid: 5c770cf2dd31d804c9c6b5e7b75961dd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5612509488771682521, guid: 5c770cf2dd31d804c9c6b5e7b75961dd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5612509488771682521, guid: 5c770cf2dd31d804c9c6b5e7b75961dd, type: 3}
       propertyPath: zoombieDestination
       value: 
@@ -9917,15 +9925,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5616801305610334652, guid: 5c770cf2dd31d804c9c6b5e7b75961dd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 56.7
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 5616801305610334652, guid: 5c770cf2dd31d804c9c6b5e7b75961dd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -35.4
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 5616801305610334652, guid: 5c770cf2dd31d804c9c6b5e7b75961dd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.1
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 5616801305610334652, guid: 5c770cf2dd31d804c9c6b5e7b75961dd, type: 3}
       propertyPath: m_LocalRotation.w

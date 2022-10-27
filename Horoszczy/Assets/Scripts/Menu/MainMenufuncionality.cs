@@ -24,7 +24,7 @@ public class MainMenufuncionality : MonoBehaviour
         loadingBar.SetActive(true);
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene(1);
-        Debug.Log("XD");
+        Debug.Log("Moving to lvl1");
     }
 
     public void Exit()

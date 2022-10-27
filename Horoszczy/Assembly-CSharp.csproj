@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Road-Level\Triggery\CoHamujesz.cs" />
     <Compile Include="Assets\Scripts\Lvl2\ZoombieSpawner.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Nitro\NitroCounter.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\Mydło\SoapSpawner.cs" />
     <Compile Include="Assets\AdditionalAssets\Supercyan Character Pack Zombie Sample\Scripts\ZombieCameraLogic.cs" />
     <Compile Include="Assets\AdditionalAssets\Supercyan Character Pack Zombie Sample\Scripts\ZombieCharacterControl.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Nitro\NitroSpawner.cs" />
@@ -77,6 +78,8 @@
     <Compile Include="Assets\Scripts\Lvl2\ZoombieAI.cs" />
     <Compile Include="Assets\Scripts\Road-Level\DetectCollision.cs" />
     <Compile Include="Assets\Scripts\Lvl2\PlayerCasting.cs" />
+    <Compile Include="Assets\Scripts\Lvl2\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Road-Level\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Lvl2\Movement.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Enemy\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Road-Level\Env\LevelBoundary.cs" />
