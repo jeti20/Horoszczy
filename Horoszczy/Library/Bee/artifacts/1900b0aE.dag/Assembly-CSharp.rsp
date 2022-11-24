@@ -117,6 +117,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -327,6 +328,7 @@
 -r:"C:/Users/Michał/Desktop/git/Horoszczy/Horoszczy/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"C:/Users/Michał/Desktop/git/Horoszczy/Horoszczy/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
@@ -362,6 +364,14 @@
 "Assets/Scripts/Lvl2/Shooting.cs"
 "Assets/Scripts/Lvl2/ZoombieAI.cs"
 "Assets/Scripts/Lvl2/ZoombieSpawner.cs"
+"Assets/Scripts/Lvl3/ApplesAppears.cs"
+"Assets/Scripts/Lvl3/Arrow.cs"
+"Assets/Scripts/Lvl3/Note1.cs"
+"Assets/Scripts/Lvl3/Note1Trigger.cs"
+"Assets/Scripts/Lvl3/OpenTheSzafka.cs"
+"Assets/Scripts/Lvl3/Player/Playerlook.cs"
+"Assets/Scripts/Lvl3/Player/PlayerMove.cs"
+"Assets/Scripts/Lvl3/StartInformation.cs"
 "Assets/Scripts/Menu/MainMenufuncionality.cs"
 "Assets/Scripts/Road-Level/CameraFollow.cs"
 "Assets/Scripts/Road-Level/DetectCollision.cs"
